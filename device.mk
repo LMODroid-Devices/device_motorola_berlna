@@ -33,7 +33,7 @@ $(call inherit-product, device/motorola/sm7325-common/sm7325.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-lmodroid
 
 PRODUCT_PACKAGES += \
     FrameworksResBerlna \
