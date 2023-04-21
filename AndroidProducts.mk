@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_berlna.mk
+    $(LOCAL_DIR)/lmodroid_berlna.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_berlna-user \
-    lineage_berlna-userdebug \
-    lineage_berlna-eng
+    lmodroid_berlna-user \
+    lmodroid_berlna-userdebug \
+    lmodroid_berlna-eng
