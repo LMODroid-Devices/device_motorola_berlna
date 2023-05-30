@@ -23,7 +23,7 @@ include device/motorola/sm7325-common/BoardConfigCommon.mk
 TARGET_BOOTLOADER_BOARD_NAME := berlna
 
 # HIDL
-DEVICE_MANIFEST_YUPIK_FILES += $(DEVICE_PATH)/manifest_berlna.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest_berlna.xml
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=berlna
@@ -58,9 +58,6 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 
 # Security
 VENDOR_SECURITY_PATCH := 2023-03-01
-
-# SELinux
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # inherit from the proprietary version
 include vendor/motorola/berlna/BoardConfigVendor.mk
