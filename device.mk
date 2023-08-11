@@ -38,8 +38,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     FrameworksResBerlna \
     LineageSystemUIBerlna \
+    SettingsResBerlna \
     SettingsProviderResBerlna \
-    SystemUIResBerlna
+    SystemUIResBerlna \
+    WifiResBerlna
 
 # Audio
 PRODUCT_COPY_FILES += \
