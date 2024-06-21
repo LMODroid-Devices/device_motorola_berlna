@@ -16,8 +16,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lmodroid_berlna.mk
-
-COMMON_LUNCH_CHOICES := \
-    lmodroid_berlna-user \
-    lmodroid_berlna-userdebug \
-    lmodroid_berlna-eng
