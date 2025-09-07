@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_berlna.mk
+    $(LOCAL_DIR)/lmodroid_berlna.mk
